@@ -1,6 +1,6 @@
 {
   "name": "@syeda_quratualin/openclaw-rewind",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Git-like time-travel for AI conversations. Save, list, rewind, branch, and diff OpenClaw session history.",
   "keywords": [
     "openclaw",
@@ -29,7 +29,15 @@
     "LICENSE"
   ],
   "openclaw": {
-    "manifest": "./openclaw.plugin.json"
+    "manifest": "./openclaw.plugin.json",
+    "compat": {
+      "pluginApi": "^1.0.0",
+      "pluginSdk": "^1.0.0",
+      "minGateway": "0.1.0"
+    },
+    "build": {
+      "openclawVersion": "0.1.0"
+    }
   },
   "scripts": {
     "build": "tsc",
