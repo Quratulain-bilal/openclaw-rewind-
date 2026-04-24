@@ -1,0 +1,31 @@
+{
+  "id": "com.quratulain-bilal.openclaw-rewind",
+  "name": "OpenClaw Rewind",
+  "description": "Git-like time-travel for AI conversations. Save, list, rewind, branch, and diff OpenClaw session history.",
+  "version": "0.1.1",
+  "author": "Quratulain-bilal",
+  "homepage": "https://github.com/Quratulain-bilal/openclaw-rewind-",
+  "license": "MIT",
+  "tags": [
+    "session",
+    "history",
+    "time-travel",
+    "cli",
+    "productivity"
+  ],
+  "capabilities": [
+    "session-snapshot",
+    "session-rewind",
+    "session-branch",
+    "session-diff"
+  ],
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "openclawHome": {
+        "type": "string",
+        "description": "Override the default OpenClaw home directory (~/.openclaw). Leave empty to use the default."
+      }
+    }
+  }
+}
