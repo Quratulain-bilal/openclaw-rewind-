@@ -1,5 +1,5 @@
 {
-  "name": "@quratulain-shah/openclaw-rewind",
+  "name": "@syeda_quratualin/openclaw-rewind",
   "version": "0.1.0",
   "description": "Git-like time-travel for AI conversations. Save, list, rewind, branch, and diff OpenClaw session history.",
   "keywords": [

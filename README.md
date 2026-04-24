@@ -21,13 +21,13 @@ No OpenClaw runtime required. Reads and writes `~/.openclaw/agents/*/sessions/*.
 ## Install
 
 ```bash
-npm install -g @quratulain-shah/openclaw-rewind
+npm install -g @syeda_quratualin/openclaw-rewind
 ```
 
 Or run without installing:
 
 ```bash
-npx @quratulain-shah/openclaw-rewind list
+npx @syeda_quratualin/openclaw-rewind list
 ```
 
 ## Commands
