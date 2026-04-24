@@ -1,0 +1,43 @@
+{
+  "name": "@quratulain-shah/openclaw-rewind",
+  "version": "0.1.0",
+  "description": "Git-like time-travel for AI conversations. Save, list, rewind, branch, and diff OpenClaw session history.",
+  "keywords": [
+    "openclaw",
+    "ai",
+    "session",
+    "history",
+    "time-travel",
+    "rewind",
+    "conversation",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "Quratulain Shah <umayaimanshah@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quratulain-bilal/openclaw-rewind.git"
+  },
+  "type": "module",
+  "bin": {
+    "openclaw-rewind": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --test dist/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
